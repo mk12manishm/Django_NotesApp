@@ -25,7 +25,7 @@ SECRET_KEY = 'epovw7*b*-5q$xfee8my-5b#q45d*+*e79a4!4l_py_e)i&3*c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["akashvana.pythonanywhere.com"]
 
 
 # Application definition
@@ -121,3 +121,5 @@ USE_TZ = True
 
 STATICFILES_DIRS=(os.path.join(BASE_DIR,'static'),)
 STATIC_URL = '/static/'
+
+STATIC_ROOT = "/home/akashvana/Django_NotesApp/assets"

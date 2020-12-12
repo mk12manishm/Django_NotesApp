@@ -23,7 +23,7 @@ def User_Login(request):
     return render(request,'user_Login.html')
 
 def First_Page(request):
-    return render(request,'First_page.html')
+    return render(request,'first_Page.html')
 
 @csrf_exempt
 def register(request):
