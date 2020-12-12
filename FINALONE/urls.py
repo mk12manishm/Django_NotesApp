@@ -22,7 +22,7 @@ urlpatterns = [
     path('editor/',editor),
     path('admin/', admin.site.urls),
     path('User_Login/',User_Login),
-    path('First_page/',First_Page),
+    path('',First_Page),
     path('register/',register),
     path('Login/',Login),
     path('destroy/<int:id>',views.destroy),
